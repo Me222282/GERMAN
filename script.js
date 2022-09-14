@@ -152,7 +152,7 @@ function checkAnswer()
         
         thisQuestion = -1;
         
-        left.innerHTML = possibleQ.length + currentQ.length;
+        left.innerHTML = possibleQ.length + currentQ.length + " left";
     }
 }
 
@@ -245,5 +245,5 @@ function start()
 
     nextQuestion();
     
-    left.innerHTML = possibleQ.length + currentQ.length;
+    left.innerHTML = possibleQ.length + currentQ.length + " left";
 }
